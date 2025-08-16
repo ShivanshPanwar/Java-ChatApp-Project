@@ -8,16 +8,17 @@ It allows multiple users to register, login, and communicate in real-time, with 
 MultiUserChatApplication/
 │── .settings/ # Eclipse project settings
 │── src/
-│ └── com/shivansh/chatapp/  # Main Java source code
-│ ├── dao/  # Data Access Objects (DB interactions)
-│ ├── dto/  # Data Transfer Objects (User, Message, etc.)
-│ ├── network/  # Networking (Client & Server sockets)
-│ ├── utils/  # Utility classes (DB connection, helpers)
-│ └── views/  # Swing UI (Login, Register, Chat windows)
-│── Images/  # Screenshots & documentation assets
-│── config.properties  # Database configuration (URL, username, password)
-│── mysql-connector-j-9.2.0.jar  # MySQL JDBC driver
-│── .classpath / .project # Eclipse configs
+│ └── com/shivansh/chatapp/ # Main Java source code
+│ ├── dao/ # Data Access Objects (DB interactions)
+│ ├── dto/ # Data Transfer Objects (User, Message, etc.)
+│ ├── network/ # Networking (Client & Server sockets)
+│ ├── utils/ # Utility classes (DB connection, helpers)
+│ └── views/ # Swing UI (Login, Register, Chat windows)
+│── Images/ # Screenshots & documentation assets
+│── config.properties # Database configuration (URL, username, password)
+│── mysql-connector-j-9.2.0.jar # MySQL JDBC driver
+│── .classpath # Eclipse classpath config
+│── .project # Eclipse project config
 │── .gitignore # Git ignore rules
 
 ## 🚀 Features
