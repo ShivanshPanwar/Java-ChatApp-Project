@@ -6,20 +6,20 @@ It allows multiple users to register, login, and communicate in real-time, with 
 ## 📂 Project Structure
 
 MultiUserChatApplication/
-│── .settings/ # Eclipse project settings
-│── src/
-│ └── com/shivansh/chatapp/ # Main Java source code
-│ ├── dao/ # Data Access Objects (DB interactions)
-│ ├── dto/ # Data Transfer Objects (User, Message, etc.)
-│ ├── network/ # Networking (Client & Server sockets)
-│ ├── utils/ # Utility classes (DB connection, helpers)
-│ └── views/ # Swing UI (Login, Register, Chat windows)
-│── Images/ # Screenshots & documentation assets
-│── config.properties # Database configuration (URL, username, password)
-│── mysql-connector-j-9.2.0.jar # MySQL JDBC driver
-│── .classpath # Eclipse classpath config
-│── .project # Eclipse project config
-│── .gitignore # Git ignore rules
+├── .settings/                  # Eclipse project configuration settings
+├── src/
+│   └── com/shivansh/chatapp/   # Base package for the application
+│       ├── dao/                # Data Access Objects (Database CRUD operations)
+│       ├── dto/                # Data Transfer Objects (User, Message models)
+│       ├── network/            # Networking layer (Client & Server socket logic)
+│       ├── utils/              # Utility classes (DB connection pool, helpers)
+│       └── views/              # Swing UI components (Login, Register, Dashboard)
+├── Images/                     # Screenshots, GIFs, and documentation assets
+├── .classpath                  # Eclipse classpath configuration
+├── .gitignore                  # Git ignore rules and patterns
+├── .project                    # Eclipse project metadata
+├── config.properties           # Database configuration (URL, credentials)
+└── mysql-connector-j-9.2.0.jar # MySQL JDBC driver dependency
 
 ## 🚀 Features
 
