@@ -4,7 +4,7 @@ A **Java-based multi-user chat system** built using **Swing** for GUI, **JDBC** 
 It allows multiple users to register, login, and communicate in real-time, with features like **user authentication, chat history, and active user tracking**.
 
 ## 📂 Project Structure
-
+```
 MultiUserChatApplication/
 ├── .settings/                  # Eclipse project configuration settings
 ├── src/
@@ -20,7 +20,7 @@ MultiUserChatApplication/
 ├── .project                    # Eclipse project metadata
 ├── config.properties           # Database configuration (URL, credentials)
 └── mysql-connector-j-9.2.0.jar # MySQL JDBC driver dependency
-
+```
 ## 🚀 Features
 
 - 🧑‍🤝‍🧑 **Multi-User Support** – Multiple clients can join and chat simultaneously.  
